@@ -1,0 +1,15 @@
+body,html{padding: 0; margin:0; height:100 vh; width:100 vh; }
+
+
+/*Container Principal */
+.container-principal{background-color: blue; height: 700px;
+display: flex; flex-direction: column;align-items: center; justify-content: center;}
+
+/* Titulo */
+.titulo {background-color: cornsilk; width: 800px; height: 50px; display: flex; flex-direction: column;align-items: center;justify-content: center;}
+
+/*container secundário */
+
+.container-secundario { background-color:black;display: flex; justify-content: center; width: 800px; height: 500px;  }
+.parte1{ width: 400px; height: 500px; background-color: brown; flex: 1;}
+.parte2{ width: 400px; height: 500px; background-color: cornflowerblue; }
