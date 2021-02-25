@@ -58,13 +58,13 @@
         </section>
 
         <a href="#" onclick="Modal.open()" class="btn-addconta">+ Nova conta</a>
-        <a href="#" class="btn-result"> Resultado</a>
+        <a href="#" onclick="Modals.open()" class="btn-result"> Resultado</a>
     </main>
 
     <div class="modal-overlay ">
         <div class="modal">
             <div class="form">
-                <h2>Conta</h2>
+                <h2> Nova Conta</h2>
                 <form action="">
                     <div class="grupo-inputs">
                         <label class="sr-only " for="descricao">Descrição</label>
@@ -84,6 +84,23 @@
     </div>
 
 
+    <div class="modal-overlays">
+        <div class="modals">
+            <div class="forms">
+                <h2> Quantas pessoas irá participar do racha?</h2>
+                <form action="">
+                    <div class="grupo-inputss">
+                        <label class="sr-only " for="n-pessoas">Quantidade de pessoas</label><br>
+                        <input type="number" id="n-pessoas" name="n-pessoas" placeholder=" N° de pessoas">
+                    </div>
+                    <div class="grupo-inputss acao">
+                        <a onclick="Modals.close()" href="#" class="btn-cancelar">Cancelar</a>
+                        <button>Salvar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
     <footer>
         <p>desenvolvido por smichelles</p>
     </footer>

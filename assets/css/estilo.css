@@ -80,6 +80,32 @@ a:hover {
   border-radius: 0.3rem;
 }
 
+/* Modal2=============== */
+
+.modal-overlays {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+}
+.modal-overlays.active {
+  opacity: 1;
+  visibility: visible;
+}
+.modals {
+  background: #f0f2f5;
+  padding: 2.4rem;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 0.3rem;
+}
+
 /* Formulario =============== */
 .form {
   max-width: 500px;
@@ -132,6 +158,59 @@ button:hover {
 .btn-cancelar:hover {
   opacity: 1;
 }
+/* Formulario 2 =============== */
+.forms {
+  max-width: 500px;
+}
+
+.forms h2 {
+  margin-top: 0;
+}
+input {
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.8rem;
+  width: 100%;
+}
+.grupo-inputss {
+  margin-top: 0.8rem;
+}
+
+.grupo-inputss.acao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.grupo-inputss.acao .btn-cancelar,
+.grupo-inputss.acao button {
+  width: 48%;
+}
+button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  color: white;
+  background-color: #ff9a00;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: bisque;
+}
+
+.btn-cancelar {
+  color: red;
+  border: 2px solid red;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.6;
+}
+.btn-cancelar:hover {
+  opacity: 1;
+}
+
 /* Rodapé=============== */
 
 .sr-only {
